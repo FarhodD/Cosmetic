@@ -591,9 +591,11 @@
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(9.3px);
+  -moz-backdrop-filter: blur(9.3px);
+  -o-backdrop-filter: blur(9.3px);
+  -ms-backdrop-filter: blur(9.3px);
   border: 1px solid rgba(255, 255, 255, 0.28);
   -webkit-backdrop-filter: blur(9.3px);
-
   /* box-shadow: 0px 0px 70px -6px mediumvioletred; */
 }
 
