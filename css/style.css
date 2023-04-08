@@ -496,7 +496,7 @@
 
 .review__card {
   margin-right: 20px;
-  max-width: 280px;
+  min-width: 280px;
   padding: 15px 15px;
   /* background-color: #fff; */
   background-color: #11003399;
