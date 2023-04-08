@@ -155,7 +155,6 @@ menuOpenEl.addEventListener("click", (event) => {
     submenuEl.style.display = "flex";
     menuOpenEl.style.display = "none";
     menuCloseEl.style.display = "flex";
-    // menuCloseEl.style.zIndex = 2;
     submenuEl.style.height = 300 + "px";
     submenuEl.style.width = 100 + "%";
     submenuEl.style.padding = 20 + "px";
@@ -168,10 +167,6 @@ menuOpenEl.addEventListener("click", (event) => {
     submenuEl.style.alignItems = "center";
     submenuEl.style.gap = 20 + "px";
     submenuEl.style.backgroundColor = "white";
-    menuCloseEl.style.transform = "rotate(360deg)"
-    menuCloseEl.style.transform = "rotate(360deg)"
-
-
   }
 }
 )
