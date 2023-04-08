@@ -68,12 +68,43 @@ $(document).ready(function () {
     dots: true,
     slideToShow: 1,
     slidesToScroll: 3,
-    speed: 100,
+    // speed: 500,
     infinite: true,
     centerMode: true,
-    // lazyLoaded: slick,
-    // adaptiveHeight: true,
-    // horizontal: true
+    autoplay: true,
+    autoplaySpeed: 2500,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: "40px",
+          slidesToShow: 5,
+        },
+      },
+
+      {
+        breakpoint: 968,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: "40px",
+          slidesToShow: 3,
+        },
+      },
+
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: "40px",
+          slidesToShow: 1,
+        },
+      },
+
+    ]
   });
 })
 
