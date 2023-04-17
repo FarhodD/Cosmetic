@@ -80,7 +80,7 @@ $(document).ready(function () {
           arrows: true,
           centerMode: true,
           centerPadding: "40px",
-          slidesToShow: 5,
+          slidesToShow: 3,
         },
       },
 
@@ -90,7 +90,7 @@ $(document).ready(function () {
           arrows: true,
           centerMode: true,
           centerPadding: "40px",
-          slidesToShow: 3,
+          slidesToShow: 1,
         },
       },
 
