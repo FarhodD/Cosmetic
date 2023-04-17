@@ -136,6 +136,7 @@
   background-position: right;
   background-size: contain;
   padding: 100px 0;
+  min-height: 100vh;
 }
 
 .header__main-inner {
@@ -145,7 +146,7 @@
 
 .header__left-block {
   max-width: 465px;
-  margin-top: auto;
+  margin-top: 100px;
 }
 
 .header__main-title {
