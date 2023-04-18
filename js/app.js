@@ -1,33 +1,16 @@
-const menuOpenEl = document.querySelector(".menu__burger"),
-submenuEl = document.querySelector(".submenu__open"),
-menuCloseEl = document.querySelector(".menu__close"),
-subLinks = document.querySelectorAll('submenu__link');
-
-// NAVIGATIONS
-
-
-function toggleMenu() {
-    // submenuEl.style.display = 'none';
-    menuOpenEl.classList.toggle('menu__open');
-}
-
+const menuBurgerBtnEl = document.querySelector(".menu__burger-btn");
+const menuBurgerEl = document.querySelector(".burger-menu");
 
 // BURGER-MENU
-
-
-
-
-
-
-
-
-
+function toggleMenu() {
+  menuBurgerBtnEl.classList.toggle("burger-btn__open");
+  menuBurgerEl.classList.toggle("menu__open");
+}
 
 // SLICK-SLIDER
 
-
 $(document).ready(function () {
-  $('.reviews__cards').slick({
+  $(".reviews__cards").slick({
     arrows: true,
     dots: true,
     slideToShow: 1,
@@ -67,19 +50,6 @@ $(document).ready(function () {
           slidesToShow: 1,
         },
       },
-
-    ]
+    ],
   });
-})
-
-
-
-
-
-
-
-
-
-
-
-
+});
