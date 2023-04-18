@@ -629,7 +629,7 @@
 }
 
 .form {
-  padding: 15px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   /* border: 1px solid #533150; */
@@ -658,7 +658,7 @@
 input {
   border-bottom: 1px solid #533150;
   outline: none;
-  width: 400px;
+  width: 100%;
   font-size: 20px;
   padding-bottom: 5px;
   color: #533150;
@@ -679,7 +679,7 @@ textarea {
   outline: none;
   border-bottom: 1px solid #533150;
   font-size: 20px;
-  width: 400px;
+  width: 100%;
   height: 100px;
   color: #533150;
   font-weight: 600;
@@ -732,6 +732,8 @@ textarea:focus {
   display: flex;
   align-self: center;
 }
+
+
 
 .soc__nets-footer {
   margin-right: 0;
@@ -839,6 +841,11 @@ textarea:focus {
   .menu__close {
     justify-self: end;
     cursor: pointer;
+    display: none;
+  }
+
+  .menu__open {
+    display: block;
   }
 
   .submenu__link {
@@ -849,11 +856,6 @@ textarea:focus {
 @media (max-width: 630px) {
   .menu__link {
     margin-right: 10px;
-  }
-
-  input,
-  textarea {
-    width: 350px;
   }
 
   .contacts__info {
@@ -891,11 +893,6 @@ textarea:focus {
 
   .menu__footer .menu__link {
     font-size: 17px;
-  }
-
-  input,
-  textarea {
-    width: 230px;
   }
 }
 
